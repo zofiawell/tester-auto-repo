@@ -11,11 +11,11 @@ public class Main2 {
         int nr2 = 78;
         int nr3 = 345;
 
-        if (nr1 > nr2 && nr2 > nr3) ; {
+        if (nr1 > nr2 && nr2 > nr3) {
             System.out.println("Największa z liczb: " + nr1 + "," + nr2 + "," + nr3 + " to liczba: " + nr1);
-        } else if (nr2 > nr1 && nr1 > nr3); {
+        } else if (nr2 > nr1 && nr1 > nr3) {
             System.out.println("Największa z liczb:" + nr1 + "," + nr2 + "," + nr3 + "to liczba: " + nr2);
-        } else; {
+        } else {
             System.out.println ("Największa z liczb:" + nr1 + "," + nr2 + "," + nr3 + "to liczba: " + nr3);
        }
         }
