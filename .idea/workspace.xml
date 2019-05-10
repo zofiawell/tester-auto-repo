@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec656d45-ebd3-4991-ac17-cad5a7622a67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Main2" beforeDir="false" afterPath="$PROJECT_DIR$/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tester-auto-repo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Main4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
@@ -52,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="464">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="e#0#246#0" expanded="true" />
               </folding>
@@ -72,8 +65,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Main4.java" />
         <option value="$PROJECT_DIR$/Main3.java" />
+        <option value="$PROJECT_DIR$/Main4.java" />
       </list>
     </option>
   </component>
@@ -96,6 +89,9 @@
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -252,16 +248,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -275,6 +261,16 @@
           <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#0#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#246#0" expanded="true" />
           </folding>
         </state>
       </provider>
