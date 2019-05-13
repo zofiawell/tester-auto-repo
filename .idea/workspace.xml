@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec656d45-ebd3-4991-ac17-cad5a7622a67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Main4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Main4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main4.java" afterDir="false" />
-    </list>
+    <list default="true" id="ec656d45-ebd3-4991-ac17-cad5a7622a67" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,11 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="174">
               <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#230#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
+            <state relative-caret-position="725">
               <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="41" />
             </state>
           </provider>
@@ -48,11 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
+            <state relative-caret-position="348">
               <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#246#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +61,12 @@
         <option value="$PROJECT_DIR$/Main4.java" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="134" />
+    <option name="y" value="39" />
+    <option name="width" value="1423" />
+    <option name="height" value="1961" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -191,19 +189,26 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec656d45-ebd3-4991-ac17-cad5a7622a67" name="Default Changelist" comment="" />
+      <created>1557506805446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557506805446</updated>
+    </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="35" width="1433" height="1965" extended-state="4" />
+    <frame x="134" y="39" width="1423" height="1961" extended-state="4" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21933086" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22621723" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49962825" visible="true" weight="0.32842848" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49962825" visible="true" weight="0.32861358" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50037175" side_tool="true" weight="0.32960564" />
       <window_info anchor="bottom" id="Messages" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49962825" weight="0.32960564" />
@@ -241,13 +246,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -257,21 +255,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="174">
           <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#230#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
+        <state relative-caret-position="348">
           <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#246#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
