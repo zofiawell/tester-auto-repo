@@ -121,5 +121,9 @@ public class formularz {
         driver.findElement(By.id("submit")).click();
         String messageLast = driver.findElement(By.id("last-name-error")).getText();
         assertEquals("Please enter a valid last name.", messageLast);
+        
+       //rozdziel to na dwa testy, dla first-name i dla last-name, teraz będzie sytuacja, że jeśli assertEquals w linii 119
+       //padnie to test nie pójdzie dalej
+       // wszystkie Stringi do stałych
     }
 }
