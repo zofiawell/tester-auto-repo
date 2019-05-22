@@ -36,5 +36,6 @@ public class SearchTest {
         System.out.println(title);
 
         assertEquals("Testowanie Selenium - Szukaj w Google", title);
+        //String powyżej powinien być wyekstraktowany do stałej
     }
 }
