@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import static org.junit.Assert.*;
 
 public class SearchTest2 {
+    //klasa nie może się nazywać SearchTest2 :-)
 
     private WebDriver driver;
 
@@ -37,4 +38,6 @@ public class SearchTest2 {
 
         assertEquals("Mistrzostwa Świata w piłce nożnej 2018 - Bing", title);
     }
+    
+   //wszystkie Stringi do stałych
 }
