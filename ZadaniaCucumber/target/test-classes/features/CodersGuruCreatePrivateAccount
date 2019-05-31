@@ -1,0 +1,18 @@
+Feature: CodersGuruCreatePrivateAccount
+
+  Scenario: Creating a private account on CodersGuru webpage
+    Given open browser with url Coders Guru
+    When user clicks registration button
+    Then user is in registration page
+    When user fills all mandatory id fields with data
+      | fos_user_registration_form_email              | karol123@wp.pl  |
+      | fos_user_registration_form_name               | Karol        |
+      | fos_user_registration_form_lastname           | Kowalski     |
+      | fos_user_registration_form_plainPassword_first| karolek12    |
+      | fos_user_registration_form_plainPassword_second| karolek12    |
+      | form_city                                     | Warszawa     |
+      | form_postal_code                              | 61-001       |
+      | form_street                                   | Prosta       |
+      | form_number                                   | 22           |
+    And user clicks rules checkbox and submittes the form
+    Then new private account is created
