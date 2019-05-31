@@ -1,0 +1,81 @@
+Zadanie 1 - Selenium WebDriver + Junit
+
+Twoim zadaniem jest przygotowanie skryptu testowego, który sprawdzi poprawność wyświetlania strony głównej Coders Guru. W tym ćwiczeniu należy użyć framework'u Junit.
+
+Skrypt powinien automatycznie:
+
+otwierać stronę głową Coders Guru
+sprawdzić poprawność przekierowań linków
+-------------------------------------------------------
+
+
+Zadanie 2 - Selenium WebDriver + Cucumber
+
+Twoim zadaniem jest przygotowanie skryptu testowego, który poprawnie utworzy użytkownika prywatnego Coders Guru. W tym ćwiczeniu należy użyć framework'u Cucumber.
+
+
+Skrypt powinien automatycznie:
+
+otwierać stronę głową Coders Guru,
+przejść do rejestracji użytkownika,
+poprawnie wypełnić formularz rejestracji użytkownika prywatnego.
+
+Skrypt powinien być tak przygotowany aby umożliwił w przyszłości masowe zakładanie kont dla użytkowników. Zastanów się jakich weryfikacji wymaga skrypt aby działał poprawnie.
+
+Kamil Bukalski [7:44 PM]
+joined #warsztaty.
+
+Adrian Lachowski [7:44 PM]
+----------------------------------------------------
+
+
+Zadanie 3 - Selenium WebDriver + Cucumber/Junit
+
+Twoim zadaniem jest przygotowanie skryptu testowego, który poprawnie utworzy użytkownika firmowego Coders Guru. W tym ćwiczeniu możesz użyć dowolnego framework'u.
+
+
+Skrypt powinien automatycznie:
+
+otwierać stronę głową Coders Guru,
+przejść do rejestracji użytkownika,
+poprawnie wypełnić formularz rejestracji użytkownika firmowego,
+Dodatkowo!!! NIP za każdym razem musi być pobierany z generatora NIP'ów ze strony http://generatory.it
+
+
+Skrypt powinien być tak przygotowany aby umożliwił w przyszłości masowe zakładanie kont dla użytkowników. Zastanów się jakich weryfikacji wymaga skrypt aby działał poprawnie.
+Generatory numerów IT
+Generatory numerów IT: generator - PESEL, NIP, REGON, IBAN, numeru dowodu osobistego
+Szukasz prostego w obsłudze generatora numerów? Generatory PESEL, NIP, REGON, IBAN i numeru dowodu osobistego umieszczone na stronie przydadzą się każdemu programiście i testerowi.
+----------------------------------------------------
+
+
+Zadanie 4 - Selenium WebDriver + Cucumber/Junit
+
+Twoim zadaniem jest przygotowanie skryptu testowego, który poprawnie wykona cały proces E2E rezerwacji zajęć u mentora. W tym ćwiczeniu możesz użyć dowolnego framework'u.
+
+
+Skrypt powinien automatycznie:
+
+otwierać stronę głową Coders Guru,
+przejść do rejestracji użytkownika,
+poprawnie wypełnić formularz rejestracji użytkownika prywatnego,
+znaleźć wskazane zajęcia,
+wybrać mentora,
+zarezerwować termin,
+dokonać płatności za rezerwację (w tym przypadku za sukces uważamy odrzucenie płatności przez system PayU).
+----------------------------------------------------
+
+
+Twoim zadaniem jest przygotowanie skryptu testowego, który poprawnie dokona rezerwacji lotu z lotniska w Warszawie do Nowego Jorku w dn. 24.01.2019 - 31.01.2019. Za poprawny skrypt uważa się taki, który na końcu wygeneruje zrzut ekranu z fakturą za zarezerwowany lot.
+
+Lot proszę zarezerwować na stronie: https://www.phptravels.net/
+
+
+W tym ćwiczeniu możesz użyć dowolnego frameworku.
+
+
+
+PAMIĘTAJ !!! Aby tworzyć takie skrypty, które będą w uniwersalne i możliwe do użycia w przyszłości.
+PHPTRAVELS
+PHPTRAVELS | Travel Technology Partner
+php travels is complete booking and reservation system provides complete solution for travel agency

@@ -5,7 +5,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -141,10 +144,66 @@ public class CodersGuruMentorReservation {
         WebElement topicDropdown = driver.findElement(By.className("select-text-desktop"));
         topicDropdown.click();
 
-        Select topicWindow = new Select(driver.findElement(By.className("select-text-desktop")));
-        topicWindow.getFirstSelectedOption();
+        WebElement topicWindow = driver.findElement(By.xpath("//li[text()='AJAX']"));
+        topicWindow.click();
 
-        WebElement findMentorButton = driver.findElement(By.className("link main-page-top__select-btn"));
+        WebElement findMentorButton = driver.findElement(By.cssSelector("input.link"));
         findMentorButton.click();
+
+        String currentUrl = driver.getCurrentUrl();
+        System.out.println(currentUrl);
+
+        driver.get(currentUrl);
+
+        // Rezerwacja daty i godziny mentora
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//button[text() = 'Rezerwuj']"), 0));
+
+        WebElement reservationButton = driver.findElements(By.xpath("//button[text() = 'Rezerwuj']")).get(0);
+        reservationButton.click();
+
+        WebDriverWait waitDate = new WebDriverWait(driver, 2);
+        WebElement date = waitDate.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[text() = '31.05']")));
+        date.click();
+
+        WebElement reservationDate = driver.findElement(By.xpath("//li[text() = '31.05']"));
+        reservationDate.click();
+
+        WebDriverWait waitTime = new WebDriverWait(driver, 2);
+        WebElement time = waitTime.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[text() = '20:00']")));
+        time.click();
+
+        WebElement reservationTime = driver.findElement(By.xpath("//li[text() = '20:00']"));
+        reservationTime.click();
+
+        String reservationDetails = driver.findElement(By.id("sumary-date")).getText();
+        assertEquals("31.05.2019, 20:00", reservationDetails);
+
+        WebElement notesField = driver.findElement(By.name("name"));
+        notesField.sendKeys("Mam problem");
+
+        WebElement buttonPay = driver.findElement(By.cssSelector(".reservation-modal__summary-button"));
+        buttonPay.click();
+
+        WebDriverWait waitPayU = new WebDriverWait(driver, 5);
+        waitPayU.until(ExpectedConditions.titleIs("PayU"));
+
+        String titlePayU = driver.getTitle();
+        assertEquals("PayU", titlePayU);
+
+        String currentUrlPayU = driver.getCurrentUrl();
+        System.out.println(currentUrlPayU);
+
+        driver.get(currentUrlPayU);
+
+
+
+
     }
 
+
+}
+
+
+
+//*[@id="sumary-date"]
